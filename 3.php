@@ -1,0 +1,20 @@
+<?php
+  echo"<table align='center'><tr><td align='right'>";
+    for($i=0;$i<=9;$i++){
+       for($a=$i;$a>=0;$a--){
+         print('*');
+       }
+    echo"<br/>";
+   }
+   for($i=8;$i<=9;$i++){
+	   for($a=$i;$a==8;$a--){
+  print('DUMBWAYSID<br/>');}
+   }
+  for($i=0;$i<=9;$i++){
+    for($a=$i;$a<=9;$a++){
+      print('*');
+    }
+  echo"<br/>";
+  }
+ echo"</td></tr></table>";
+?>
